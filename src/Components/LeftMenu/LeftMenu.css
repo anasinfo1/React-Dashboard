@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+
+:root{
+    --leftSideColor: rgb(79,115,251);
+    --hoverColor : rgb(62,93,224);
+    --myfont : 'Ubuntu', sans-serif;
+    --DefaultFont : Calibri, sans-serif;
+
+}
+
+body{
+    overflow-x: hidden;
+    
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--myfont);
+}
+
+aside a{
+    text-decoration: none;
+    gap: 1em;
+    border-radius: 5px;
+    display: flex;
+    color: white;
+    margin-left: 20px;
+    transition: all 0.5s ease;
+    padding: 10px;
+    font-size: 13.5px;
+    align-items: center;
+    
+}
+
+aside a h3{
+    font-weight: 300;
+}
+
+
+
+.link-container {
+    width: 16.6%;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 50px;
+    
+}
+
+
+aside a:hover{
+    background-color: var(--hoverColor);
+    margin-left: 0;
+}
+
+
+
+aside span a{
+    width: 100%;
+}
+
+aside h1{
+    margin-left: 30px;
+    margin-bottom:80px;
+    font-family: var(--DefaultFont);
+}
+
+aside{
+    color: white;
+    height: 100vh;
+    background-color: var(--leftSideColor);
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 10px;
+    width: 15rem;
+    margin: 10px;
+    
+}
+
+
+

@@ -1,0 +1,49 @@
+.container{
+    display: grid;
+    width: 96%;
+    gap: 4rem;
+    grid-template-columns: 15rem auto ;
+}
+
+body{
+    background-color: rgb(245, 246, 248);
+}
+
+.mainsections{
+    margin: 20px; 
+}
+
+
+.container .mainsections .revenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.container .mainsections .charts{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 33px;
+}
+
+
+/*  Chart 2 sales */
+
+.container .mainsections .charts .sales-chart .infos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .mainsections .charts .sales-chart{
+    background-color: white;
+    width: 35%;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.container .mainsections .charts .sales-chart .infos p{
+    color: gray;
+}

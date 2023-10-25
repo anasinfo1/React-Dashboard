@@ -1,0 +1,40 @@
+.mainsections .NavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.mainsections .NavBar .date{
+    display: flex;
+    gap: 1.5rem;
+
+}
+
+.mainsections .NavBar .date a{
+    text-decoration: none;
+    color: rgb(125, 125, 125,0.8);
+    font-size: 16px;
+}
+
+
+.mainsections .NavBar .filters{
+    display: flex;
+    gap: 1rem;
+
+}
+
+.mainsections .NavBar .filters .filter{
+    display: flex;
+    align-items: center;
+    
+}
+
+.mainsections .NavBar .filters button{
+    padding: 5px 20px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px rgb(125, 125, 125,0.8) solid;
+    font-size: 16px;
+}

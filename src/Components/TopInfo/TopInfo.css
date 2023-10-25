@@ -1,0 +1,57 @@
+section h1{
+    font-size: 40px;
+    font-family: var(--DefaultFont);
+}
+
+.topmenu .search{
+    display: flex;
+    background-color: white;
+    padding: 5px 10px;
+    padding-right: 20px;
+    border-radius: 10px;
+    align-items: center;
+    
+}
+
+
+.topmenu {
+    display: flex;
+    justify-content: space-between;
+   
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+.profile .userImage img{
+    width: 50px;
+    border-radius: 50%;
+
+}
+
+.topmenu .profile{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+
+
+.topmenu .search input{
+    height: 20px;
+    border: none;
+    padding: 5px;
+    width: 200px;
+    font-size: 15px;
+}
+
+.topmenu .search input:focus{
+    outline: none;
+}

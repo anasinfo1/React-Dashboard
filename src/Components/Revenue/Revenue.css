@@ -1,0 +1,31 @@
+.container .mainsections .revenu .card img{
+    width: 60px;
+    
+}
+
+.container .mainsections .revenu .card{
+    display: flex;
+    background-color: white;
+    padding: 15px;
+    align-items: center;
+    border-radius: 20px;
+    height: 70px;
+    width: 205px;
+    gap: 1.3rem;
+
+}
+
+.container .mainsections .revenu .card .price{
+    display: flex;
+    color: green;
+}
+
+.container .mainsections .revenu .card .price h2{
+    color: black;
+}
+
+.container .mainsections .revenu .card .infos > p{
+    margin-top: 5px;
+    color: gray;
+    font-size: 14px;
+}

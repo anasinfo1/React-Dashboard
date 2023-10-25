@@ -1,0 +1,32 @@
+.container .mainsections .charts .revenue-chart{
+    background-color: white;
+    width: 50%;
+    height: 350px; /* to be modified */
+    border-radius: 10px;
+    padding: 30px;
+    
+}
+
+.container .mainsections .charts .revenue-chart .infos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .mainsections .charts .revenue-chart .infos .filters {
+    display: flex;
+    gap: 1rem;
+}
+
+.container .mainsections .charts .revenue-chart .infos .filters a{
+    text-decoration: none;
+    color: gray;
+
+}
+
+
+
+
+
+
+
